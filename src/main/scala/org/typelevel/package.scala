@@ -13,7 +13,7 @@ object `package` {
     .add(name = "cats",             version = "2.9.0",org = typeLevelOrg, "cats-core", "cats-kernel", "cats-free", "cats-laws", "cats-testkit", "alleycats-core")
     .add(name = "cats-collections", version = "0.9.5",  org = typeLevelOrg, "cats-collections-core")
     .add(name = "cats-effect",      version = "3.4.5", org = typeLevelOrg, "cats-effect", "cats-effect-laws")
-    .add(name = "cats-effect-testing",  version = "1.5.0",  org = typeLevelOrg, modules="cats-effect-testing-scalatest", "cats-effect-testing-utest", "cats-effect-testing-minitest")
+    .add(name = "cats-effect-testing",  version = "1.4.0",  org = typeLevelOrg, modules="cats-effect-testing-scalatest", "cats-effect-testing-utest", "cats-effect-testing-minitest")
     .add(name = "cats-mtl",         version = "1.3.0",  org = typeLevelOrg, "cats-mtl", "cats-mtl-laws")
     .add(name = "cats-retry",       version = "3.1.0",  org = "com.github.cb372")
     .add(name = "cats-tagless",     version = "0.14.0",    org = typeLevelOrg, "cats-tagless-core", "cats-tagless-laws", "cats-tagless-macros")
